@@ -48,8 +48,6 @@ function  longWord(word) {
         word = wrd[0] + (numLetters - 2) + wrd[numLetters - 1];
     } else if (numLetters <= 10){
         word = wrd;
-    } else if (numLetters = 0){
-        word = '';
     }
 
     return word;
